@@ -12,19 +12,19 @@ public class UnityCode : MonoBehaviour {
 		if (GUI.Button (new Rect (10, 10, 200, 50), "Open Preroll"))
 		{
 			
-			BMUnityPlugin.showPrerollView("ca92b245-7951-43f3-b76d-ab10f9ade5c3");
+			BMUnityPlugin.showPrerollView("9c6543a6-a41e-4657-9178-84210b22d794");
 			
 		}
 		if (GUI.Button (new Rect (10, 100, 200, 50), "Open Reward"))
 		{
 			
-			BMUnityPlugin.showRewardView("ca92b245-7951-43f3-b76d-ab10f9ade5c3");
+			BMUnityPlugin.showRewardView("9c6543a6-a41e-4657-9178-84210b22d794");
 			
 		}
 		if (GUI.Button (new Rect (10, 200, 200, 50), "Open Offerlist"))
 		{
 			
-			BMUnityPlugin.showOfferlistView("ca92b245-7951-43f3-b76d-ab10f9ade5c3");
+			BMUnityPlugin.showOfferlistView("9c6543a6-a41e-4657-9178-84210b22d794");
 			
 		}
 	}
