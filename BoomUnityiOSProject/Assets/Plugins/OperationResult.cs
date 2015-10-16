@@ -15,7 +15,9 @@ namespace ContactListPOC
 
 		public string eventName{get; set;}
 
-		public float videoPercentage { get; set;}
+		public string errorDescription { get; set;}
+
+		public string errorInfo { get; set;}
 
 		public int pointsRevealed { get; set;}
 
@@ -25,12 +27,13 @@ namespace ContactListPOC
 
 	public enum OPERATIONAL_RESULT_MESSAGES
 	{
-		videoPlayStart, videoCompleted, videoCompletedWithPercent, adViewClosed, adViewLoaded, videoPaused,
-		videoCompletedAsPerRule, redirectedToAnnotation, linkPostedOnFacebook,
-		linkPostedOnTwitter, linkPostedOnGooglePlus, redirectedToInstallation, redirectedToSignUp,
-		redirectedToSlideshare, redirectedToPurchase, redirectedToBlog, redirectedToInstagram,
-		surveyCompleted, surveyNotCompleted, networkNotAvailable,
-		kInterstitialLoaded, kInterstitialClosed, kInterstitialClicked, unknownError
+		adViewLoaded,
+		adViewClosed,
+		pointsRevealed,
+		linkPostedOnFacebook,
+		linkPostedOnTwitter,
+		linkPostedOnGooglePlus,
+		adFailed
 	}
    
 }
