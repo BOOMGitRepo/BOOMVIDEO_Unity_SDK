@@ -16,6 +16,7 @@ Download [Library](Library)
 # Supported System
 Android : 4.0 and above
 IOS: 7.0 and above
+Unity: 5 and above
 
 
 # Features
